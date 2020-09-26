@@ -8,7 +8,7 @@ You can remove everything below the above line once you're ready to edit this fi
 
 ## Getting Started
 
-Please read the [Assignment Requirements](./assignments/readme.md)
+Please read the [Assignment Requirements](./assignment/readme.md)
 
 ## Deadline For Submissions
 
