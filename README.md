@@ -12,7 +12,7 @@ Please read the [Assignment Requirements](./assignments/readme.md)
 
 ## Deadline For Submissions
 
-The deadline for this assignment is 5PM on Wednesday September 25th, 2020
+The deadline for this assignment is 5PM on Wednesday September 30th, 2020
 
 ## Notes
 
