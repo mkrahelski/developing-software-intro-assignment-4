@@ -4,6 +4,9 @@
   "description": "This respository is intended for the use of Focus College Students enrolled in the Advanced Certificate of Software Development located in Kelowna, BC and Surrey, BC.",
   "main": "index.js",
   "scripts": {
+    "prestart": "tsc",
+    "start": "node dist/index.js",
+    "build": "npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/mkrahelski/developing-software-intro-assignment-4/issues"
   },
-  "homepage": "https://github.com/mkrahelski/developing-software-intro-assignment-4#readme"
+  "homepage": "https://github.com/mkrahelski/developing-software-intro-assignment-4#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
 }
