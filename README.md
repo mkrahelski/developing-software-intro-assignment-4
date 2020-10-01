@@ -4,16 +4,61 @@ This respository is intended for the use of Focus College Students enrolled in t
 
 ---
 
-You can remove everything below the above line once you're ready to edit this file.
+## Assigment 4
 
-## Getting Started
+#### Functionality Added: Typescript
 
-Please read the [Assignment Requirements](./assignment/readme.md)
+Global installation of typescript on a node/npm frame work. Using scripts in package.json
 
-## Deadline For Submissions
+To acess this functionality. Use specific keywords and enter them into terminal equiped with node, and with all npm dependencies installed.
 
-The deadline for this assignment is 5PM on Wednesday September 30th, 2020
+Examples below
 
-## Notes
+```
+npm tsc
 
-This is a PUBLIC repository attached to your github account and something that you can demonstrate to potential employers. Take care to ensure professionalism for both you and your team's sake. This will be the first entry into your professional portfolio.
+//compiles typescript
+
+npm start
+
+//starts node.js and activates the program
+
+npm build
+
+//formally acesses both start of node and prestart compiling of tsc
+```
+
+---
+
+### Functionality Added: Eslint
+
+To acess this functionality. Use specific keywords and enter them into terminal equiped with node, and with all npm dependencies installed.
+
+Examples below
+
+```
+npm lint
+
+//runs npm lint on files within the src folder with the .ts configuration
+
+build:lint
+
+//runs npm lint in the src folder, and then builds the initiates compiling and start up routines
+```
+------------
+### Functionality Added: Prettier
+
+To acess this functionality. Use specific keywords and enter them into terminal equiped with node, and with all npm dependencies installed.
+
+Examples Below
+
+~~~~~
+npm format 
+
+//npm format formats the code in the src folder to standard expectation
+
+build:devkit
+
+//build devkit, lints and formats the code in src, and compiles and runs said code.
+
+~~~~~
