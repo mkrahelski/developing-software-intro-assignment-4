@@ -15,15 +15,15 @@ To acess this functionality. Use specific keywords and enter them into terminal 
 Examples below
 
 ```
-npm tsc
+npm run tsc
 
 //compiles typescript
 
-npm start
+npm run start
 
 //starts node.js and activates the program
 
-npm build
+npm run build
 
 //formally acesses both start of node and prestart compiling of tsc
 ```
@@ -37,11 +37,11 @@ To acess this functionality. Use specific keywords and enter them into terminal 
 Examples below
 
 ```
-npm lint
+npm run lint
 
 //runs npm lint on files within the src folder with the .ts configuration
 
-build:devkit
+npm run build:devkit
 
 //runs npm lint in the src folder, and then builds the initiates compiling and start up routines
 ```
@@ -55,12 +55,33 @@ To acess this functionality. Use specific keywords and enter them into terminal 
 Examples Below
 
 ```
-npm format
+npm run format
 
 //npm format formats the code in the src folder to standard expectation
 
-build:devkit
+npm run build:devkit
 
 //build devkit, lints and formats the code in src, and compiles and runs said code.
 
 ```
+
+------
+
+### Functionally Added: Mocha/Chai - Testing.
+
+To acess this functionality. Use specific keywords and enter them into terminal equiped with node, and with all npm dependencies installed.
+
+Examples Below
+
+```
+npm run test
+
+//npm run tests the code for functionality
+
+build:devkit
+
+//build devkit, lints and formats the code in src, tests and compiles and runs said code.
+
+```
+
+-------
