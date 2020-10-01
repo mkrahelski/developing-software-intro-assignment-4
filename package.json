@@ -1,6 +1,6 @@
 {
   "name": "acsd-assignment-4-mikita-krahelski",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "This respository is intended for the use of Focus College Students enrolled in the Advanced Certificate of Software Development located in Kelowna, BC and Surrey, BC.",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "start": "node dist/index.js",
     "build": "npm run start",
     "lint": "eslint src/**/*.ts --ext .ts",
-    "build:devkit": "eslint src/**/*.ts --ext .ts && npm run start",
-
+    "format": "prettier src/**/*.ts --write", 
+    "build:devkit": "eslint src/**/*.ts --ext .ts && prettier src/**/*.ts --write && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +26,7 @@
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
     "eslint": "^7.10.0",
+    "prettier": "2.1.2",
     "typescript": "^4.0.3"
   }
 }

@@ -41,19 +41,21 @@ npm lint
 
 //runs npm lint on files within the src folder with the .ts configuration
 
-build:lint
+build:devkit
 
 //runs npm lint in the src folder, and then builds the initiates compiling and start up routines
 ```
-------------
+
+---
+
 ### Functionality Added: Prettier
 
 To acess this functionality. Use specific keywords and enter them into terminal equiped with node, and with all npm dependencies installed.
 
 Examples Below
 
-~~~~~
-npm format 
+```
+npm format
 
 //npm format formats the code in the src folder to standard expectation
 
@@ -61,4 +63,4 @@ build:devkit
 
 //build devkit, lints and formats the code in src, and compiles and runs said code.
 
-~~~~~
+```
