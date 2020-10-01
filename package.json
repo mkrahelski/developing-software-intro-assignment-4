@@ -1,6 +1,6 @@
 {
   "name": "acsd-assignment-4-mikita-krahelski",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "This respository is intended for the use of Focus College Students enrolled in the Advanced Certificate of Software Development located in Kelowna, BC and Surrey, BC.",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
     "build": "npm run start",
     "lint": "eslint src/**/*.ts --ext .ts",
     "format": "prettier src/**/*.ts --write",
-    "test": "mocha -r ts-node/register src/**/*.ts",
-    "build:devkit": "eslint src/**/*.ts --ext .ts && prettier src/**/*.ts --write && mocha -r ts-node/register src/**/*.ts && npm run start"
-
+    "test": "nyc mocha -r ts-node/register src/**/*.ts",
+    "coverage": "npm run test",
+    "build:devkit": "npm run lint && npm run format && npm run test && npm run start"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "chai": "^4.2.0",
     "eslint": "^7.10.0",
     "mocha": "^8.1.3",
+    "nyc": "^15.1.0",
     "prettier": "2.1.2",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3"

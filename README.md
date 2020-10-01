@@ -85,3 +85,24 @@ build:devkit
 ```
 
 -------
+
+### Functionally Added: Istanbul Coverage
+
+To acess this functionality. Use specific keywords and enter them into terminal equiped with node, and with all npm dependencies installed.
+
+Examples Below
+
+```
+npm run coverage
+
+//npm run mocha tests and istanbul
+
+build:devkit
+
+//build devkit, lints and formats the code in src, tests and compiles and runs said code.
+//istanbul functionality added on top
+
+//it might seem odd but the test included breaks build functionality. Aslong as those are alternated there doesn't seem to be problems :)
+```
+
+-------
